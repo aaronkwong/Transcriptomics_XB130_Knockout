@@ -1,3 +1,7 @@
+# R package management
+library(renv)
+renv::activate()
+
 library("pheatmap")
 
 # load expression and sample info

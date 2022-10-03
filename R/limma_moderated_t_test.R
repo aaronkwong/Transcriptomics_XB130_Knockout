@@ -1,5 +1,9 @@
 #Microarray pre processing already conducted by Dr. Ricardo Zamel
 
+# R package management
+library(renv)
+renv::activate()
+
 library(limma)
 
 #source utilities file

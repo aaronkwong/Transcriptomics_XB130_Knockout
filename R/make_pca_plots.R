@@ -1,3 +1,7 @@
+# R package management
+library(renv)
+renv::activate()
+
 library(pca3d)
 
 #define a plotting function
